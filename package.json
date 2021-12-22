@@ -1,9 +1,9 @@
 {
   "name": "@mirowsky/mui-stylesheet",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Factory function to generate statically typed @mui/system theme aware React Native-esque stylesheet for component scoped styling and better code structuring/organization",
-  "main": "dist/bundle.js",
-  "types": "dist/bundle.types.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
