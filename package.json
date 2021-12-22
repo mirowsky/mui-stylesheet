@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "build": "node ./esbuild.config.js & tsc",
+    "build": "node ./.esbuild/core.config.js & tsc",
+    "build:scripts": "node ./.esbuild/scripts.config.js & tsc",
     "preinstall": "npx only-allow pnpm"
   },
   "keywords": [],

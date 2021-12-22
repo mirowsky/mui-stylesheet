@@ -1,8 +1,9 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 require("esbuild")
   .build({
-    entryPoints: ["./src/index.ts"],
-    bundle: true,
-    outfile: "./dist/bundle.js",
+    entryPoints: ["./src/scripts/index.ts"],
+    bundle: false,
+    outdir: "./scripts",
     tsconfig: "./tsconfig.json",
     sourcemap: "both",
     loader: {
@@ -10,6 +11,6 @@ require("esbuild")
     },
   })
   .catch((error) => {
-    console.log(err);
+    console.log(error);
     process.exit(1);
   });
