@@ -10,7 +10,7 @@
     "declaration": true,
     "declarationMap": true,
     "emitDeclarationOnly": true,
-    "outFile": "./dist/bundle.types.ts",
+    "outDir": "dist",
     // "noEmit": true,
     //  "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
