@@ -2,10 +2,11 @@
 require("esbuild")
   .build({
     entryPoints: ["./src/core/index.ts"],
-    bundle: false,
-    outdir: "./dist",
+    bundle: true,
+    outfile: "./dist/index.cjs",
     tsconfig: "./tsconfig.json",
     sourcemap: "both",
+    format: "cjs",
     loader: {
       ".ts": "ts",
     },
