@@ -1,6 +1,6 @@
 {
   "name": "@mirowsky/mui-stylesheet",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Factory function to generate statically typed @mui/system theme aware React Native-esque stylesheet for component scoped styling and better code structuring/organization",
   "main": "dist/index.cjs",
   "types": "dist/index.d.ts",
@@ -9,10 +9,12 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "build": "node ./.esbuild/core.module.config.js & tsc & node ./.esbuild/core.bundle.config.js",
-    "build:scripts": "node ./.esbuild/scripts.config.js & tsc",
-    "preinstall": "npx only-allow pnpm"
+    "build:scripts": "node ./.esbuild/scripts.config.js & tsc"
   },
-  "keywords": ["@mui/system", "@mui/material"],
+  "keywords": [
+    "@mui/system",
+    "@mui/material"
+  ],
   "author": "Aleksander Mirowsky",
   "license": "MIT",
   "private": false,
